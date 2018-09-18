@@ -16,5 +16,5 @@ docker build -t pad/hadoop-nativelibs .
 ## Copy the tarred libs from docker container
 
 ```
-docker run --rm  sequenceiq/hadoop-nativelibs > hadoop-native-64-2.9.1.tar
+docker run --rm  pad/hadoop-nativelibs > hadoop-native-64-2.9.1.tar
 ```
